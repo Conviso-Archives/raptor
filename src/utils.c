@@ -65,34 +65,36 @@ void load_signal_alarm (void)
 
 
 
-int ishex(int x)
+char from_hex(char ch) 
 {
-	return	(x >= '0' && x <= '9') || (x >= 'a' && x <= 'f') || (x >= 'A' && x <= 'F');
+  return isdigit(ch) ? ch - '0' : tolower(ch) - 'a' + 10;
 }
 
-char *urldecode(const char *s, int sizestr)
+char *urldecode(char *str, int size) 
 {
-	char *o;
-	const char *end = s + strlen(s);
-	int c=0;
- 	
-	char *dec=xmalloc(sizestr*sizeof(char));
+	char *pstr = str, *buf = xmalloc(size+ 1), *pbuf = buf;
 
-	for (o = dec; s <= end; o++) 
+  	while (*pstr) 
 	{
-		c = *s++;
+    		if (*pstr == '%') 
+		{
+      			if (pstr[1] && pstr[2]) 
+			{
+        			*pbuf++ = from_hex(pstr[1]) << 4 | from_hex(pstr[2]);
+        			pstr += 2;
+      			}
+    		} else if (*pstr == '+') 
+		{ 
+      			*pbuf++ = ' ';
+    		} else {
+      			*pbuf++ = *pstr;
+    		}
+    		pstr++;
+  	}
 
-		if (c == '+') 
-			c = ' ';
-		else if (c == '%' && (!ishex(*s++)||!ishex(*s++)||!sscanf(s - 2, "%2x", &c)))
-			return " ";
- 
-		if (dec) 
-			*o = c;
-	}
+  	*pbuf = '\0';
 
-	
-	return dec;
+	return buf;
 }
  
 
