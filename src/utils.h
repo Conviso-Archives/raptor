@@ -35,6 +35,6 @@
 void No_Pause_Waf();
 void no_write_coredump (void);
 void load_signal_alarm (void);
-int ishex(int x);
-char *urldecode(const char *s, int sizestr);
+char from_hex(char ch);
+char *urldecode(char *str, int size) ;
 char *deadspace(char *str);
