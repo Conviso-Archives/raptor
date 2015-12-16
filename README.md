@@ -20,3 +20,6 @@ $ bin/Raptor -h localhost -p 80 -r 8883 -w 4 -o loglog.txt
 you can test at http://localhost:8883/test.php
 
 
+# Look the docs
+
+https://github.com/CoolerVoid/raptor_waf/blob/master/doc/raptor.pdf
