@@ -9,6 +9,7 @@
 #include <errno.h> 
 #include <sys/types.h>
 #include <time.h>
+#include <ctype.h>
 #include "utils.h"
 #include "mem_ops.h"
 

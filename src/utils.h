@@ -9,7 +9,7 @@
 #include <errno.h> 
 #include <sys/types.h>
 #include <time.h>
-
+#include <ctype.h>
 
 // set DEBUG ON
 #define BUGVIEW 1
