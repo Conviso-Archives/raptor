@@ -127,7 +127,7 @@ int tcp_connect_to_stamp(const char* stamp, int port)
  	memset(&hints, 0, sizeof hints);
  	hints.ai_family = AF_UNSPEC;
  	hints.ai_socktype = SOCK_STREAM;
-//	hints.ai_flags |= AI_CANONNAME;
+	hints.ai_flags = AI_PASSIVE;
  	char tmp[6]; // max is 65535
  	sprintf(tmp,"%5d",port);
  	getaddrinfo(stamp, tmp, &hints, &res);
