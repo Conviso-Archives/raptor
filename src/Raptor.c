@@ -77,7 +77,7 @@ struct choice param;
 
 int main(int argc, char ** argv)
 {
- 	char c=NULL;
+ 	char c;
 
  	no_write_coredump();
  	load_signal_alarm();
@@ -167,6 +167,12 @@ int main(int argc, char ** argv)
      					exit(0);
     				}
 			break;
+
+			default:
+				init_banner_raptor();
+				option_banner_raptor();
+     				DEBUG("Option -%c requires an argument.\n", optopt); 
+     				exit(0);
 		}
 
 	init_banner_raptor();

