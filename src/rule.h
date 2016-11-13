@@ -13,5 +13,6 @@
 #include "file_ops.h"
 //#include "dfa_match.h"
 #include "blacklist.h"
+#include "matchlist.h"
 
-bool Judge_malicious(char *buf, const int BUF_SIZE,char *addr, char *logfile, int wafmode);
+bool Judge_malicious(char *buf, const int BUF_SIZE,char *addr, char *logfile, int wafmode,short match_option);

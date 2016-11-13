@@ -4,10 +4,10 @@ WAF mode level 1
 DFA to block
 
 Block payloads SQLi
-union"|"select"|"insert"|"\@version"|"load_file"|"1=1"|"2=2"
+union"|"select"|"insert"|"\@version"|"load_file"|"1=1"|"2=2" etc...
 
 Block Payloads XSS
-"eval"|"script"|"onstart"|"onload"|"onerror"|"onpageshow"|"onprogress"|"alert"|"onclick"|"onmouseover"|"onfinish"|"fromCharCode"
+"eval"|"script"|"onstart"|"onload"|"onerror"|"onpageshow"|"onprogress"|"alert"|"onclick"|"onmouseover"|"onfinish"|"fromCharCode" etc..
 
 Block Payload PATH traversal
 ../|..\   etc...
@@ -144,7 +144,7 @@ int main()
 // random case return string, input= tomato output=ToMatO or tOmATo...
 char *all2lowcase(char *str)
 {
-	char *str_new=xmalloc(sizeof(char)*strlen(str)+1);
+	char *str_new=xmallocarray(sizeof(char),strlen(str)+1);
 	int i=0;
 	
 	while(*str != '\0')
@@ -174,13 +174,29 @@ bool is_request(char *ptr)
 // is GET ?
  	if(ptr[0]=='G' && ptr[1]=='E' && ptr[2]=='T')
  	{
-		return true;
+		while(*ptr!='\n' || *ptr!='\r')
+		{
+			if(*ptr=='=')
+				return true;
+			ptr++;	
+		}
+
+		return false;
  	}
 
 
  	if(ptr[0]=='g' && ptr[1]=='e' && ptr[2]=='t')
  	{
-		return true;
+
+		while(*ptr!='\n' || *ptr!='\r')
+		{
+			if(*ptr=='=')
+				return true;
+			ptr++;	
+		}
+
+
+		return false;
  	}
 
 // is POST ?

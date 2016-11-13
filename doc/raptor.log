@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.12.13)  16 DEC 2015 01:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2016.3.12)  27 OCT 2016 21:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1068,11 +1068,11 @@ LaTeX Info: Redefining \includegraphics on input line 19.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <6> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 19.
 
-<images/raptor.png, id=17, 401.5pt x 602.25pt>
-File: images/raptor.png Graphic file (type png)
- <use images/raptor.png>
-Package pdftex.def Info: images/raptor.png used on input line 21.
-(pdftex.def)             Requested size: 71.13188pt x 106.69106pt.
+<images/raptor2.png, id=17, 315.1775pt x 292.09125pt>
+File: images/raptor2.png Graphic file (type png)
+ <use images/raptor2.png>
+Package pdftex.def Info: images/raptor2.png used on input line 21.
+(pdftex.def)             Requested size: 71.13188pt x 65.91824pt.
 
 Overfull \vbox (12.0pt too high) has occurred while \output is active []
 
@@ -1090,7 +1090,7 @@ Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!
 Non-PDF special ignored!{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/
-pdftex.map} <./images/raptor.png>]
+pdftex.map} <./images/raptor2.png>]
 LaTeX Font Info:    Try loading font information for OMS+phv on input line 37.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsphv.fd
@@ -1122,61 +1122,10 @@ Overfull \vbox (20.07166pt too high) detected at line 37
 
 ] [5
 
+] [6
+
 ]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.82 \end{frame}
-                
-? 
-LaTeX Font Info:    Try loading font information for U+msa on input line 82.
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 82.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-! LaTeX Error: Command \end{itemize} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 \end{frame}
-                
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 \end{frame}
-                
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 \end{frame}
-                
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.82 \end{frame}
-                
-? 
-[6
-
-] <images/raptormenu.png, id=65, 905.3825pt x 795.97375pt>
+<images/raptormenu.png, id=63, 905.3825pt x 795.97375pt>
 File: images/raptormenu.png Graphic file (type png)
 
 <use images/raptormenu.png>
@@ -1201,7 +1150,7 @@ Type  H <return>  for immediate help.
 l.115 \end{frame}
                  
 ? 
-<images/help.png, id=80, 977.6525pt x 608.2725pt>
+<images/help.png, id=78, 977.6525pt x 608.2725pt>
 File: images/help.png Graphic file (type png)
  <use images/help.png>
 Package pdftex.def Info: images/help.png used on input line 115.
@@ -1219,21 +1168,20 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136 \end{frame}
+l.138 \end{frame}
                  
 ? 
-<images/raptor2.png, id=94, 315.1775pt x 292.09125pt>
 File: images/raptor2.png Graphic file (type png)
- <use images/raptor2.png>
-Package pdftex.def Info: images/raptor2.png used on input line 136.
+<use images/raptor2.png>
+Package pdftex.def Info: images/raptor2.png used on input line 138.
 (pdftex.def)             Requested size: 227.62204pt x 210.95178pt.
 
-Overfull \vbox (19.62778pt too high) detected at line 136
+Overfull \vbox (19.62778pt too high) detected at line 138
  []
 
 [11
 
- <./images/raptor2.png>]
+]
 
 ! LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -1241,16 +1189,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.149 \end{frame}
+l.151 \end{frame}
                  
 ? 
-<images/select.png, id=102, 501.875pt x 433.62pt>
+<images/select.png, id=98, 501.875pt x 433.62pt>
 File: images/select.png Graphic file (type png)
  <use images/select.png>
-Package pdftex.def Info: images/select.png used on input line 149.
+Package pdftex.def Info: images/select.png used on input line 151.
 (pdftex.def)             Requested size: 227.62204pt x 196.66884pt.
 
-Overfull \vbox (5.34483pt too high) detected at line 149
+Overfull \vbox (5.34483pt too high) detected at line 151
  []
 
 [12
@@ -1263,14 +1211,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.161 \end{frame}
+l.163 \end{frame}
                  
 ? 
-<images/blockip.png, id=110, 699.61375pt x 390.45876pt>
+<images/blockip.png, id=106, 699.61375pt x 390.45876pt>
 File: images/blockip.png Graphic file (type png)
 
 <use images/blockip.png>
-Package pdftex.def Info: images/blockip.png used on input line 161.
+Package pdftex.def Info: images/blockip.png used on input line 163.
 (pdftex.def)             Requested size: 284.52756pt x 158.79625pt.
  [13
 
@@ -1282,13 +1230,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.172 \end{frame}
+l.174 \end{frame}
                  
 ? 
-<images/pass.png, id=119, 620.3175pt x 379.4175pt>
+<images/pass.png, id=115, 620.3175pt x 379.4175pt>
 File: images/pass.png Graphic file (type png)
  <use images/pass.png>
-Package pdftex.def Info: images/pass.png used on input line 172.
+Package pdftex.def Info: images/pass.png used on input line 174.
 (pdftex.def)             Requested size: 284.52756pt x 174.03047pt.
 
 [14
@@ -1301,27 +1249,29 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.183 \end{frame}
+l.185 \end{frame}
                  
 ? 
-<images/http.png, id=127, 521.95pt x 321.2pt>
+<images/http.png, id=123, 521.95pt x 321.2pt>
 File: images/http.png Graphic file (type png)
  <use images/http.png>
-Package pdftex.def Info: images/http.png used on input line 183.
+Package pdftex.def Info: images/http.png used on input line 185.
 (pdftex.def)             Requested size: 227.62204pt x 140.07375pt.
  [15
 
- <./images/http.png>] <images/raptor0.jpg, id=135, 499.8675pt x 592.2125pt>
+ <./images/http.png>] [16
+
+] <images/raptor0.jpg, id=137, 499.8675pt x 592.2125pt>
 File: images/raptor0.jpg Graphic file (type jpg)
 
 <use images/raptor0.jpg>
-Package pdftex.def Info: images/raptor0.jpg used on input line 192.
+Package pdftex.def Info: images/raptor0.jpg used on input line 203.
 (pdftex.def)             Requested size: 142.26378pt x 168.54736pt.
- [16
+ [17
 
- <./images/raptor0.jpg>] [17
+ <./images/raptor0.jpg>] [18
 
-] [18
+] [19
 
 ]
 \tf@nav=\write6
@@ -1333,34 +1283,32 @@ Package pdftex.def Info: images/raptor0.jpg used on input line 192.
 \tf@snm=\write8
 \openout8 = `raptor.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 223.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 223.
  (./raptor.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 212.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 223.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 223.
 Package rerunfilecheck Info: File `raptor.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 223.
  ) 
 Here is how much of TeX's memory you used:
- 19634 strings out of 495025
- 359710 string characters out of 6181514
- 453058 words of memory out of 5000000
- 22327 multiletter control sequences out of 15000+600000
- 19315 words of font info for 46 fonts, out of 8000000 for 9000
+ 19584 strings out of 495025
+ 358794 string characters out of 6181515
+ 453063 words of memory out of 5000000
+ 22293 multiletter control sequences out of 15000+600000
+ 14967 words of font info for 29 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  48i,16n,59p,564b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
-rw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/
-uhvr8a.pfb>
-Output written on raptor.pdf (18 pages, 1460647 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+urw/helvetic/uhvr8a.pfb>
+Output written on raptor.pdf (19 pages, 943764 bytes).
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
+ 184 PDF objects out of 1000 (max. 8388607)
  129 compressed objects within 2 object streams
- 37 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 39 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -8,7 +8,7 @@
 \usepackage{beamerthemesplit}
 \usetheme{lankton-keynote}
 
-\author[Raptor WAF v0.1]{ Raptor Web Application Firewall \quad \includegraphics[width=2.5cm]{images/raptor.png} }
+\author[Raptor WAF v0.3]{ Raptor Web Application Firewall \quad \includegraphics[width=2.5cm]{images/raptor2.png} }
 
 \title[ Page \hspace{2em}\insertframenumber/\inserttotalframenumber]{Raptor Waf}
 
@@ -77,7 +77,7 @@
   Following this to get, decompress, compile and execute:
   \begin{itemize}
   \item wget git clone https://github.com/CoolerVoid/raptor\_waf
-  \item cd raptor_waf; make; bin/Raptor
+  \item cd raptor\_waf; make; bin/Raptor
   \end{itemize}
 \end{frame}
 
@@ -120,7 +120,9 @@
   \item Follow this command
   \item bin/Raptor --host Address\_of\_http\_server2Protect -p 80 -r 8886 -w 4 -o logAttacks.txt 
   \item Open the machine of Raptor at any computer of network http://waf\_machine:8886
-  \item Ok raptor protect the HTTP server that you redirect, try attack... 	 
+  \item Copy vulnerable PHP code to your web server directory
+  \item cp doc/test\_dfa/test.php /var/www/html
+  \item Ok raptor protect the HTTP server at http://server\_ip:8886/test.php
   \end{itemize}
 \end{frame}
 
@@ -182,6 +184,15 @@
   \end{itemize}
 \end{frame}
 
+\begin{frame}
+  \frametitle{External match string mode}
+  \begin{itemize}
+  \item At directory config have a file of lists of rules
+  \item You can match string with diferent algorithms
+  \item You can choice with argument --match or -m
+  \item Choice one option between Karpe Rabin, DFA or Boyer Moore Horspool
+  \end{itemize}
+\end{frame}
 
 \begin{frame}
   \frametitle{The End ?}
@@ -210,3 +221,4 @@
 \end{frame}
 
 \end{document}
+
