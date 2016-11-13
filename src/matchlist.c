@@ -33,7 +33,7 @@ char *matchlist(char *input,int input_len, short option_algorithm)
 
 	while( fgets(line,sizeof line,arq) && at_list==false )
 	{
-		line_len=strlen(line);		
+		line_len=strnlen(line,1023);		
 		line[line_len-1]='\0';	
 
 // remove \n\0 etc... sub -2 at line_len	
