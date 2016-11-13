@@ -3,7 +3,7 @@
 #include "../lib/BSD/strsec.h"
 #include "match_algorithms.h"
 
-/* read lines of file matchlist.txt and test if match strings
+/* read lines of file config/match_list_request.txt and test if match strings
 
 If match context with request return array of void pointer with:
 if true returns matched string
