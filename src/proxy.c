@@ -21,6 +21,7 @@ char *get_ip_of(int sock)
 
 	len = sizeof addr;
 	getpeername(sock, (struct sockaddr*)&addr, &len);
+	
 	if (addr.ss_family == AF_INET) 
 	{
 		struct sockaddr_in *s = (struct sockaddr_in *)&addr;
@@ -51,7 +52,7 @@ int tcp_create_socket(int port)
 	int s = -1;
 
 	struct addrinfo hints, *res;
- 	memset(&hints, 0, sizeof hints);
+ 	burn_mem(&hints, 0, sizeof hints);
  	hints.ai_family = AF_UNSPEC; // portable to use IPv4 or IPv6, thanks Beej Jorgensen for good examples with function getaddrinfo()
 	hints.ai_socktype = SOCK_STREAM;
  	hints.ai_flags = AI_PASSIVE;
@@ -76,7 +77,7 @@ void tcp_bind_and_listen(int socket, int port)
 	const int LENGTH_OF_LISTEN_QUEUE = 10;
 	struct addrinfo hints, *res;
 
- 	memset(&hints, 0, sizeof hints);
+ 	burn_mem(&hints, 0, sizeof hints);
  	hints.ai_family = AF_UNSPEC; 
 	hints.ai_socktype = SOCK_STREAM;
  	hints.ai_flags = AI_PASSIVE;
@@ -108,7 +109,7 @@ int tcp_connect_to_stamp(const char* stamp, int port)
 
 	struct addrinfo hints, *res;
 
- 	memset(&hints, 0, sizeof hints);
+ 	burn_mem(&hints, 0, sizeof hints);
  	hints.ai_family = AF_UNSPEC;
  	hints.ai_socktype = SOCK_STREAM;
  	hints.ai_flags = AI_PASSIVE;
@@ -134,7 +135,8 @@ int bridge_of_data(int from_socket, int to_socket, char *logfile, int wafmode,sh
 {
 	const int BUF_SIZE = 10512;
 	unsigned char buf[BUF_SIZE];
-	memset(buf,0,BUF_SIZE-1);
+
+	burn_mem(buf,0,BUF_SIZE-1);
 	int recvbytes = recv(from_socket, buf, BUF_SIZE-1, 0);
 	int sendbytes=0;
 	bool block=false;
@@ -171,7 +173,7 @@ int bridge_of_data(int from_socket, int to_socket, char *logfile, int wafmode,sh
     		sendbytes = send(to_socket, buf, recvbytes, 0);
 	}
 
-	memset(tmp_addr,0,strlen(tmp_addr));
+	burn_mem(tmp_addr,0,strlen(tmp_addr));
 	XFREE(tmp_addr);		
 		
     	return sendbytes;

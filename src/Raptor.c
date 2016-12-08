@@ -11,9 +11,10 @@
 #include <signal.h>
 #include <sys/resource.h>
 #include "utils.h"
-#include "proxy.h"
-#include "../lib/BSD/strsec.h"
-#include "matchlist.h"
+#include "proxy.h" // reverse proxy
+#include "../lib/BSD/strsec.h" // strlcpy(),strlcat()...
+#include "matchlist.h" 
+#include "validate.h" // argvs_validate
 
 void init_banner_raptor()
 {
@@ -36,7 +37,7 @@ void init_banner_raptor()
    "                      ███     ███   ███    ███   ███              \n"           
    "                      ███ ▄█▄ ███   ███    ███   ███              \n"           
    "                       ▀███▀███▀    ███    █▀    ███              \n"                                            
-   "\n\tRAPTOR WEB APPLICATION FIREWALL v0.03 \n\n\t██████████████████████████████████████████████████\n"
+   "\n\tRAPTOR WEB APPLICATION FIREWALL v0.04 \n\n\t██████████████████████████████████████████████████\n"
  );
 
 }
@@ -68,18 +69,6 @@ static struct option long_options[] =
 	{NULL, 0, NULL, 0}
 };
 
-struct choice  {
- char hostarg[65];
- char logarg[17];
- short option_algorithm;
- int portarg;
- int redirectarg;
- int wafmode;
-};
-
-struct choice param;
-
-
 int main(int argc, char ** argv)
 {
  	char c;
@@ -87,7 +76,7 @@ int main(int argc, char ** argv)
 
  	no_write_coredump();
  	load_signal_alarm();
-
+	param.wafmode=0;
 
 	if(argc < 8) 
 	{
@@ -108,7 +97,7 @@ int main(int argc, char ** argv)
 			case 'h':
 				if ( strnlen(optarg,65)<= 64 )
 				{
-					memset(param.hostarg,0,64);
+					burn_mem(param.hostarg,0,64);
 					strlcpy(param.hostarg,optarg,65);	
 				} else {
 					DEBUG("Error at param host");
@@ -157,7 +146,7 @@ int main(int argc, char ** argv)
 			case 'o':
 				if ( strnlen(optarg,16)<= 16 )
 				{
-					memset(param.logarg,0,16);	
+					burn_mem(param.logarg,0,16);	
 					strlcpy(param.logarg,optarg,17);	
 				} else {
 					DEBUG("Error at param Log");
@@ -171,7 +160,7 @@ int main(int argc, char ** argv)
 				{
 					char algorithm[12];
 
-					memset(algorithm,0,11);	
+					burn_mem(algorithm,0,11);	
 					strlcpy(algorithm,optarg,11);
 
 					if(strnstr(algorithm,"dfa",3))
@@ -188,7 +177,6 @@ int main(int argc, char ** argv)
 						DEBUG("need match argv example --match dfa");
 						exit(0);
 					}
-
 
 					param.option_algorithm=options_match;					
 				} else {
@@ -207,14 +195,10 @@ int main(int argc, char ** argv)
      					exit(0);
     				}
 			break;
-
-			default:
-				init_banner_raptor();
-				option_banner_raptor();
-     				DEBUG("Option -%c requires an argument.\n", optopt); 
-     				exit(0);
 		}
+	
 
+	isnull_argv();
 	init_banner_raptor();
 	puts("\n\tSTART raptor...\n");
 

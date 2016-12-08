@@ -32,7 +32,6 @@
 #define GREEN "\033[22;32m"
 #define LAST "\033[0m"
 
-
 void No_Pause_Waf();
 void no_write_coredump (void);
 void load_signal_alarm (void);

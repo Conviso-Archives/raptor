@@ -133,7 +133,7 @@ bool Judge_malicious(char *buf, const int BUF_SIZE, char *addr, char *logfile, i
 		report=xmallocarray(tmp_size,sizeof(char));
 		snprintf(report,tmp_size,"Path Traversal Attack\n IP: %s\n Time: %s\n Request:\n%s\n-----\n",addr,d,buf);
 		WriteFile(logfile,report);
-		memset(report,0,BUF_SIZE+255);
+		burn_mem(report,0,BUF_SIZE+255);
 		XFREE(report);
 		block=true;
 	}
@@ -145,7 +145,7 @@ bool Judge_malicious(char *buf, const int BUF_SIZE, char *addr, char *logfile, i
 		report=xmallocarray(tmp_size,sizeof(char));
 		snprintf(report,tmp_size,"SQL injection Attack\n IP: %s\n Time: %s\n Request:\n%s\n-----\n",addr,d,buf);
 		WriteFile(logfile,report);
-		memset(report,0,BUF_SIZE+255);
+		burn_mem(report,0,BUF_SIZE+255);
 		XFREE(report);
 		block=true;
 	}
@@ -157,7 +157,7 @@ bool Judge_malicious(char *buf, const int BUF_SIZE, char *addr, char *logfile, i
 		report=xmallocarray(tmp_size,sizeof(char));
 		snprintf(report,tmp_size,"Cross-site scripting\n IP: %s\n Time: %s\n Request:\n%s\n-----\n",addr,d,buf);
 		WriteFile(logfile,report);
-		memset(report,0,BUF_SIZE+255);
+		burn_mem(report,0,BUF_SIZE+255);
 		XFREE(report);
 		block=true;
 	}
@@ -171,10 +171,10 @@ bool Judge_malicious(char *buf, const int BUF_SIZE, char *addr, char *logfile, i
 		report=xmalloc(256);
 		snprintf(report,256,"Address at blacklist try connect\n IP: %s\n Time: %s\n-----\n",addr,d);
 		WriteFile(logfile,report);
-		memset(report,0,255);
+		burn_mem(report,0,255);
 		XFREE(report);
 		block=true;
-		memset(addr,0,strlen(addr));
+		burn_mem(addr,0,strlen(addr));
 		XFREE(addr);
 	}
 
@@ -188,17 +188,17 @@ bool Judge_malicious(char *buf, const int BUF_SIZE, char *addr, char *logfile, i
 		char *report=NULL;
 		int total=250+BUF_SIZE+1024;
 		report=xmallocarray(total,sizeof(char));
-		memset(report,0,total-1);
+		burn_mem(report,0,total-1);
 		snprintf(report,total,"String at match list try connect\n IP: %s\n Time: %s\n Match: %s \n Buffer: %s\n",addr,d,match_string,buf);
 		WriteFile(logfile,report);
-		memset(report,0,total-1);
+		burn_mem(report,0,total-1);
 		XFREE(report);
 		block=true;	
 	}
 
 	end_JMP:
 
-	memset(addr,0,strlen(addr));
+	burn_mem(addr,0,strlen(addr));
 	XFREE(addr);
 
 		
